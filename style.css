@@ -38,7 +38,6 @@ h1 {
     font-family: 'Khand', sans-serif;
     font-weight: 700;
     font-size: 350px;
-    letter-spacing: -3%;
     text-transform: uppercase;
     color: var(--primary);
 }
@@ -138,14 +137,15 @@ ion-icon {
 
 .title h1, h2{
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
 .title {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+}
+/* this is to fix the line spacing on the font Khand */
+.title {
+    margin: 0 -180px;
 }
 
 /* navigation bar */
