@@ -46,7 +46,8 @@ h2 {
     font-family: 'Flamenco', serif;
     font-weight: 400;
     font-size: 96px;
-    color: var(--accent);  
+    color: var(--accent); 
+    margin: 10px; 
 }
 
 h3 {
@@ -116,36 +117,28 @@ ion-icon {
   }
 
 /* titles */
-/* .title-left {
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    line-height: 30px;
-} */
-
-/* span {
-    display: inline-block;
-
-} */
-
-/* .title-center {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    line-height: 0.7em;
-} */
-
-.title h1, h2{
-    text-align: center;
-}
 
 .title {
     display: flex;
     flex-direction: column;
+    margin: 1em;
 }
 /* this is to fix the line spacing on the font Khand */
-.title {
-    margin: 0 -180px;
+.title h1 {
+    margin: -160px 0;
+    text-align: center;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.title-left {
+    text-align: left;
+}
+
+span {
+    display: inline-flex;
 }
 
 /* navigation bar */
@@ -263,10 +256,6 @@ nav a:hover {
     background-color: var(--accent-dark);
 }
 
-.video {
-    margin: 0;
-}
-
 /* taste section */
 .taste-sec {
     background-image: url(images/taste-pic.jpg);
@@ -288,7 +277,6 @@ nav a:hover {
 
 .all-taste-cards {
     margin: 10%;
-    gap: 16px;
 }
 
 /* brew section */
