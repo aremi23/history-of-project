@@ -113,8 +113,11 @@ button:hover {
     margin: 1em;
 }
 /* this is to fix the line spacing on the font Khand */
+h1 {
+    margin: -150px 0;
+}
+
 .title h1 {
-    margin: -160px 0;
     text-align: center;
 }
 
@@ -127,6 +130,7 @@ button:hover {
 }
 
 span {
+    text-transform: capitalize;
     display: inline-flex;
 }
 
@@ -250,6 +254,11 @@ nav a:hover {
     background-image: url(images/taste-pic.jpg);
     height: 100%;
     background-size: cover;
+}
+
+.taste-title-center {
+    display: flex;
+    justify-content: center;
 }
 
 .taste-card {
