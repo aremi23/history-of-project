@@ -23,8 +23,6 @@
 }
 
 body {
-    margin:0;
-    padding:0;
     background-color: var(--accent);
 }
 
@@ -75,33 +73,24 @@ p {
 
 /* button */
 button {
+    font-family: 'Khand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--accent);
     margin: 2em 0;
     padding: 2px 8px;
     background-color: var(--secondary-light);
     border: none;
     border-radius: 2%;
     cursor: pointer;
-}
-
-.button-text {
-    font-family: 'Khand', sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    text-transform: uppercase;
     color: var(--accent);
 }
 
 button:hover {
     background-color: var(--primary);
     color: var(--accent);
-    transform: translateX(10px);
-}
-
-ion-icon {
-    font-size: 2em;
-    transition: all 1s linear;
-    color: var(--accent);
-    vertical-align: -10%;
+    /* transform: translateX(10px); */
 }
 
 /* back button */
@@ -328,7 +317,8 @@ footer {
     display: inline-flex;
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 3em;
+    padding: 4em;
 }
 
 .rights {
