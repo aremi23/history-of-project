@@ -175,7 +175,7 @@ nav a:hover {
 /* hero section */
 .hero {
     background-image: url(images/hero-pic.jpg);
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -183,7 +183,7 @@ nav a:hover {
 }
 
 .hero-type {
-    width: 60%;
+    width: 50%;
 
 }
 
@@ -195,7 +195,7 @@ nav a:hover {
 
 .what-sec {
     background-image: url(images/what-pic.jpg);
-    height: 100%;
+    height: 100vh; 
     background-size: cover;
     padding: 10%;
 }
@@ -207,7 +207,6 @@ nav a:hover {
     align-items: center;
     background: var(--accent-dark);
     padding: 40px;
-    margin: 40px 0;
 }
 
 .what-all-cards {
@@ -215,7 +214,6 @@ nav a:hover {
     justify-content: center; 
     align-items: stretch;
     gap: 16px;
-    /* margin: 100px; */
 }
 
 
@@ -235,7 +233,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     gap: 3em;
-    height: 100%;
+    height: 100vh;
     padding: 10%;
 }
 
@@ -254,27 +252,28 @@ nav a:hover {
     background-image: url(images/taste-pic.jpg);
     height: 100%;
     background-size: cover;
+    padding: 10%;
 }
 
 .taste-title-center {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .taste-card {
     display: inline-flex;
     justify-content: left;
-    background-color: var(--accent-dark); 
 }
 
 .taste-words {
     align-items: center;
     justify-content: center;
     padding-left: 2%;
+    background-color: var(--accent-dark);
 }
 
 .all-taste-cards {
-    margin: 10%;
+    margin-top: 5%;
 }
 
 /* brew section */
@@ -284,7 +283,7 @@ nav a:hover {
 
 .all-brew-card {
     display: grid;
-    flex: 1;
+    flex: 4;
     justify-content: center;
     align-items: stretch; 
     grid-gap: 20px;
