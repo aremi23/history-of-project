@@ -270,34 +270,43 @@ nav a:hover {
     padding-top: 10%;
 }
 
+/* .taste-card {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2em;
+    padding-top: 10%;
+} */
+
 .taste-card {
     display: flex; 
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
-.taste-words {
-    padding: 1em;
-    /* line-height: 1em; */
+/* .taste-words, h3{
+    line-height: 1em;
 }
 
-/* .taste-img img {
-    height: auto;
+.taste-words {
+    height: 100%;
+}
 
+.taste-img img {
+    height: 100%;
 } */
 
 .taste-spice {
-    grid-column: 1 / 2;
+    grid-column: 1 / 4;
     background-color: var(--primary);
 }
 
 .taste-sweet {
-    grid-column: 1 / 3;
+    grid-column: 1 / 5;
     background-color: var(--secondary);
 }
 
 .taste-nuts {
-    grid-column: 1 / 4;
+    grid-column: 1 / 6;
     background-color: var(--gray500);
 }
 
