@@ -45,7 +45,7 @@ h2 {
     font-weight: 400;
     font-size: 96px;
     color: var(--accent); 
-    margin: 10px; 
+    margin: 40px 0; 
 }
 
 h3 {
@@ -130,7 +130,7 @@ h1 {
 }
 
 span {
-    text-transform: capitalize;
+    text-transform: lowercase;
     display: inline-flex;
 }
 
@@ -175,7 +175,7 @@ nav a:hover {
 /* hero section */
 .hero {
     background-image: url(images/hero-pic.jpg);
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -183,7 +183,7 @@ nav a:hover {
 }
 
 .hero-type {
-    width: 50%;
+    width: 40%;
 
 }
 
@@ -233,7 +233,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     gap: 3em;
-    height: 100vh;
+    height: 80vh;
     padding: 10%;
 }
 
@@ -277,6 +277,10 @@ nav a:hover {
 }
 
 /* brew section */
+.brew-sec {
+    margin: 10%;
+}
+
 .brew-sec h2 {
     color: var(--secondary);
 }
@@ -284,10 +288,11 @@ nav a:hover {
 .all-brew-card {
     display: grid;
     flex: 4;
+    /* max-width: 40em; */
     justify-content: center;
-    align-items: stretch; 
+    /* align-items: stretch;  */
     grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 30em);
     margin: 10%;
 }
 
@@ -295,6 +300,7 @@ nav a:hover {
     text-align: center;
     background-color: var(--accent-dark);
     padding: 2em;
+    flex: 4;
 }
 
 /* buy section */
@@ -313,7 +319,7 @@ footer {
     padding: 10%;
     display: flex;
     align-items: center;
-    flex: 4;
+    flex: 10;
 }
 
 .footer-nav {
@@ -341,6 +347,7 @@ footer {
 }
 
 .center-items {
-    flex: 3;
+    flex: 9;
+    align-items: center;
 }
 
