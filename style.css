@@ -3,19 +3,10 @@
     --primary: #DD660D;
     --secondary: #4F0205;
     --accent: #E9E2C7;
-    --primary-light: #EA9D64;
     --secondary-light: #9D3237;
     --accent-light: #FFFBEC;
-    --primary-dark: #984100;
     --secondary-dark: #330002;
-    --accent-dark: #C3BC9E;
-    --gray100: #F9F0EA;
-    --gray300: #CCBAAD;
-    --gray500: #99877A;
-    --gray700: #59493E;
-    --gray900: #261C15; 
-    --light-overlay: rgba (195,188,158,.20);
-    --dark-overlay: rgba (18,1,2,.80);
+    --accent-dark: #C3BC9E; 
 }
 * {
     margin:0;
@@ -89,20 +80,7 @@ button {
 button:hover {
     background-color: var(--primary);
     color: var(--accent);
-    /* transform: translateX(10px); */
 }
-
-/* back button */
-
-.back-btn a {
-    font-size: 2em;
-}
-  
-.back-btn {
-    position: fixed; 
-    right: 15px; 
-    bottom: 15px; 
-  }
 
 /* titles */
 
@@ -215,7 +193,6 @@ nav a:hover {
     gap: 16px;
 }
 
-
 .what-card-icon img {
     width: 100%;
     height: 100%;
@@ -261,53 +238,44 @@ nav a:hover {
 .taste-title-center {
     display: flex;
     justify-content: left;
+    padding-bottom: 40px;
 }
 
 .all-taste-cards {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 2em;
-    padding-top: 10%;
+    row-gap: 3em;
 }
-
-/* .taste-card {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 2em;
-    padding-top: 10%;
-} */
 
 .taste-card {
     display: flex; 
     justify-content: left;
     align-items: center;
+    background-color: var(--accent-dark);
 }
 
-/* .taste-words, h3{
+.taste-words, h3{
     line-height: 1em;
 }
 
 .taste-words {
-    height: 100%;
+    padding: 4.2em 2em;
 }
 
-.taste-img img {
-    height: 100%;
-} */
+.taste-card img {
+    vertical-align: middle;
+}
 
 .taste-spice {
-    grid-column: 1 / 4;
-    background-color: var(--primary);
+    grid-column: 1 / 2;
 }
 
 .taste-sweet {
-    grid-column: 1 / 5;
-    background-color: var(--secondary);
+    grid-column: 1 / 4;
 }
 
 .taste-nuts {
     grid-column: 1 / 6;
-    background-color: var(--gray500);
 }
 
 /* brew section */
@@ -322,9 +290,7 @@ nav a:hover {
 .all-brew-card {
     display: grid;
     flex: 4;
-    /* max-width: 40em; */
     justify-content: center;
-    /* align-items: stretch;  */
     grid-gap: 20px;
     grid-template-columns: repeat(2, 30em);
     margin: 10%;
@@ -350,10 +316,10 @@ nav a:hover {
 /* footer */
 footer {
     background-color: var(--secondary-dark);
-    padding: 10%;
+    padding: 3%;
     display: flex;
     align-items: center;
-    flex: 10;
+    flex: 20;
 }
 
 .footer-nav {
@@ -377,11 +343,11 @@ footer {
 
 .other-products {
     color: var(--accent-light);
-    flex: 1;
+    flex: 2;
 }
 
 .center-items {
-    flex: 9;
+    flex: 18;
     align-items: center;
 }
 
