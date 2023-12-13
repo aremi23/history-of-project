@@ -316,38 +316,21 @@ nav a:hover {
 /* footer */
 footer {
     background-color: var(--secondary-dark);
-    padding: 3%;
-    display: flex;
-    align-items: center;
-    flex: 20;
+    padding: 5%;
+    text-align: center; 
 }
 
-.footer-nav {
-    display: flex;
+.footer-nav nav {
     justify-content: center;
+    align-items: center;
 }
 
 .social {
     display: inline-flex;
-    display: flex;
-    justify-content: center;
     gap: 3em;
     padding: 4em;
 }
 
-.rights {
+.rights, .other-products {
     color: var(--accent-light);
-    display: flex;
-    justify-content: center;
 }
-
-.other-products {
-    color: var(--accent-light);
-    flex: 2;
-}
-
-.center-items {
-    flex: 18;
-    align-items: center;
-}
-
